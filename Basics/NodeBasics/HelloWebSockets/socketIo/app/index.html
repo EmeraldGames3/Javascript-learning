@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socket.IO chat</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="https://cdn.socket.io/socket.io-3.0.0.js"></script>
+    <script defer src="app.js"></script>
+    <style>
+        #messages {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            height: 200px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <ul id="messages"></ul>
+    <input id="text" autocomplete="off" />
+    <button id="button">Send</button>
+</body>
+</html>
