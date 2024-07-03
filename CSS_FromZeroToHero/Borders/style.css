@@ -1,0 +1,14 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1{
+    border-color: blue;
+    border-style: dotted;
+}
+
+p{
+    border-radius: 25%;
+    border-style: solid;
+    padding: 50px;
+}

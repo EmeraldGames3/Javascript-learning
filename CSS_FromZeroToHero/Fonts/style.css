@@ -1,0 +1,17 @@
+body {
+    background: blue;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: #333F73;
+    font-family: 'consolas', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: cyan wavy underline;
+    font-size: 18px;
+}

@@ -1,0 +1,36 @@
+#box1 {
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+    position: relative;
+    top: 16px;
+    left: 50%;
+}
+
+#box2 {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    position: absolute;
+    top: 0;
+}
+
+#box3 {
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: sticky;
+    top: -100;
+}
+
+#box4 {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    position: static;
+    top: 0;
+}

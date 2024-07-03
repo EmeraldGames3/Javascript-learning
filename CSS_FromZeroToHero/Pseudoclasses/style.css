@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:link {
+    color: purple;
+}
+
+li:nth-child(even) {
+    color: blue;
+}
+
+li:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(3n){
+    background-color: aqua;
+}
