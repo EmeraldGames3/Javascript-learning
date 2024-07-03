@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form acion="action_page.php" method="get">
+      <div>
+        <label for="fname">First name: </label>
+        <input
+          id="fname"
+          type="text"
+          name="fname"
+          placeholder="Name"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="lname">Last name: </label>
+        <input
+          id="lname"
+          type="text"
+          name="lname"
+          placeholder="Family"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label>Password: </label>
+        <input type="password" maxlength="12" required />
+      </div>
+
+      <br />
+
+      <div>
+        <label>Email: </label>
+        <input type="email" />
+      </div>
+      <br />
+
+      <div>
+        <label>Telephone: </label>
+        <input type="tel" />
+      </div>
+      <br />
+
+      <div>
+        <label>Date: </label>
+        <input type="date" />
+      </div>
+      <br />
+
+      <div>
+        <label>Date: </label>
+        <input type="datetime" />
+      </div>
+
+      <div>
+        <label>Date: </label>
+        <input type="datetime-local" />
+      </div>
+      <br />
+
+      <div>
+        <label for="Title">Title</label>
+
+        <label for="Mr">Mr</label>
+        <input id="Mr" type="radio" name="title" value="Mr" />
+
+        <label for="Ms">Ms</label>
+        <input id="Ms" type="radio" name="title" value="Ms" />
+
+        <label for="Phd">Phd</label>
+        <input id="Phd" type="radio" name="title" value="Phd" />
+      </div>
+
+      <div>
+        <label for="payment">payment:</label>
+        <select id="payment" name="payment">
+          <option value="visa">visa</option>
+          <option value="mastercard">mastercard</option>
+          <option value="giftcard">giftcard</option>
+        </select>
+      </div>
+
+      <br />
+      <hr />
+      <div>
+        <input type="reset" />
+        <input type="submit" />
+      </div>
+      <br />
+    </form>
+  </body>
+</html>

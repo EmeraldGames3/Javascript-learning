@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="vieport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+  </head>
+  <body>
+    <a href="hyperlinks.html">
+      <button style="background-color: beige; color: blue; border-radius: 5px">
+        Hyperlink
+      </button>
+    </a>
+    <br />
+    <button
+      onclick="doSomething()"
+      style="background-color: black; color: white; border-radius: 5px"
+    >
+      Button 2
+    </button>
+
+    <p id="test">Hello</p>
+
+    <script>
+      function doSomething() {
+        console.log("click");
+        document.getElementById("test").innerHTML = "Googbye";
+      }
+    </script>
+  </body>
+</html>
