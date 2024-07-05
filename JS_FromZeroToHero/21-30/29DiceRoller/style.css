@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(56, 240, 178, 0.877);
+}
+
+#container {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 40em;
+}
+
+button {
+    font-weight: bold;
+    color: snow;
+    background-color: fuchsia;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: blueviolet;
+}
+
+label {
+    text-align: center
+}
+
+input {
+    text-align: center;
+    font-size: 2em;
+    max-width: 100px;
+}
