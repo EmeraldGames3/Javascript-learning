@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#cookieForm,
+#actions {
+  margin: 20px 0;
+}
+
+#cookieForm label,
+#cookieForm input {
+  margin: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
